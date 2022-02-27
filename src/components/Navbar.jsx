@@ -55,7 +55,9 @@ const NavContainer = styled.nav`
       font-weight: bold;
     }
   }
-
+  .links {
+    transform: translateX(190px);
+  }
   a {
     color: #fff;
     text-decoration: none;
@@ -71,6 +73,7 @@ const NavContainer = styled.nav`
       align-items: center;
       top: -700px;
       left: -800px;
+
       transition: transform 0.8s ease;
     }
 
